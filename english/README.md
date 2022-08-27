@@ -50,7 +50,7 @@
 
 ### 🔗 Links
 
-- Live Site URL: [Live Site by Vercel](https://calculator-2fsy8gg60-eliveltonsilvacordeiro.vercel.app/)
+- Live Site URL: [Live Site by Vercel](https://calculator-git-master-eliveltonsilvacordeiro.vercel.app/)
 
 &nbsp;
 
