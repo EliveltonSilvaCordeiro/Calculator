@@ -1,0 +1,37 @@
+@import 'mixins'
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    @include flex-center
+    height: 100vh
+    background-image: url(../img/background_watermark.png)
+    background-position: center
+    background-size: cover
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+footer
+    @include flex-center
+    animation: footer_display 3s 2.5s forwards
+    width: 100vw
+    height: 50px
+    opacity: 0
+    flex-direction: row
+    position: absolute
+    bottom: 1px
+    font-size: 20px
+    color: #eee
+
+a
+    text-decoration: none
+    font-weight: 700
+    color: #222
+
+    &:hover
+        @include hover-transition
+
+    &:active
+        @include active-transition
